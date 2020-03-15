@@ -1,2 +1,3 @@
 # uses
-The hardware, software, and dotfiles that I used everyday.
+
+The hardware, software, and dotfiles that I use everyday.
