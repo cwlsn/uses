@@ -104,14 +104,4 @@ export NVM_DIR="$HOME/.nvm"
 #load direnv
 eval "$(direnv hook zsh)"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/cwilson/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/cwilson/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/cwilson/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/cwilson/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
-alias wr='cd ~/workspace/frontend-web && DEV=1 MINIFY=0 bin/wr run league stage'
-
-alias lw='cd ~/workspace/league-web && yarn stage:local'
-
 alias work='g dot && g fix'

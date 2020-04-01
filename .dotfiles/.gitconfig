@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Connor Wilson
+#	email = me@cwlsn.com
+	name = Connor Wilson
+	email = me@cwlsn.com
+
+[alias]
+	co = checkout
+	cob = checkout -b
+	dot = add .
+	cm = commit -m
+	pu = push
+	p = push --set-upstream
+	st = status
